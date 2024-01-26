@@ -1,8 +1,9 @@
-package com.campusland.views;
+package com.campusland;
+import java.util.List;
 
+import com.campusland.repository.models.Cliente;
 import com.campusland.repository.models.Factura;
 import com.campusland.utils.ConexionBDList;
-import java.util.List;
 
 public class App {
     public static void main(String[] args) {

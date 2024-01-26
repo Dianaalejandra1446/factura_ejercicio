@@ -1,4 +1,4 @@
-
+/* 
 import java.util.List;
 
 import javax.swing.JOptionPane;
@@ -8,4 +8,4 @@ public class index {
         String nombre = JOptionPane.showInputDialog("Digite su nombre");
         JOptionPane.showMessageDialog(null, "Hola " + nombre);
     }
-}
+} */
