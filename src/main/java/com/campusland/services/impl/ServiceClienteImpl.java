@@ -33,17 +33,17 @@ public class ServiceClienteImpl implements ServiceCliente{
 
     @Override
     public void crear(Cliente ciente) {
-       
+       this.crudRepositoryCliente.crear(ciente);
     }
 
     @Override
     public void editar(Cliente cliente) {
-        
+        this.crudRepositoryCliente.editar(cliente);
     }
 
     @Override
     public void eliminar(String id) {
-      
+      this.crudRepositoryCliente.eliminar(id);
     }
     
 }
