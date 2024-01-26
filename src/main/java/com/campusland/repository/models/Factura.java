@@ -30,6 +30,10 @@ public class Factura {
         }
         return totalFactura;
     }
+    
+    public void agregarItem(ItemFactura item){
+        this.items.add(item);
+    }
 
     public void display() {
         System.out.println();
