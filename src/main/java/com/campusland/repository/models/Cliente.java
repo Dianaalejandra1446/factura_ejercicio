@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor 
 public class Cliente {
     
-    private String documento;
     private String nombre;
     private String apellido;
     private String email;
-    private String celular;
     private String direccion;
+    private String celular;
+    private String documento;
 
     public String getFullName(){
         return this.nombre + " "+ this.apellido;
