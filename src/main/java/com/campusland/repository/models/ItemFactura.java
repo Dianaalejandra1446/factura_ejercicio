@@ -2,6 +2,8 @@ package com.campusland.repository.models;
 
 import lombok.Data;
 @Data
+@AllArgsConstructor
+@NoAllArgsConstructor
 public class ItemFactura {
     
     private int cantidad;
