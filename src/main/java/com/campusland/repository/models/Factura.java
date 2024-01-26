@@ -42,7 +42,7 @@ public class Factura {
 
         }
         System.out.println();
-        System.out.println("Total                                         "+Formato.formatoMonedaPesos(this.getTotalFactura()));
+        System.out.println("Total    "+Formato.formatoMonedaPesos(this.getTotalFactura()));
         System.out.println();
     }
 }
