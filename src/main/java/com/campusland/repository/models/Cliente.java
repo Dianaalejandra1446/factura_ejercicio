@@ -19,4 +19,11 @@ public class Cliente {
     public String getFullName(){
         return this.nombre + " "+ this.apellido;
     }
+    public void imprimir(){
+        System.out.println("Documento: "+getDocumento());
+        System.out.println("Nombre: "+getNombre());
+        System.out.println("Email: "+getEmail());
+        System.out.println("Celular: "+getCelular());
+        System.out.println("Direccion: "+getDireccion());
+    }
 }
