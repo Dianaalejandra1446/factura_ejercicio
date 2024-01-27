@@ -14,10 +14,12 @@ public class Producto {
     private double precioCompra;
     private static int nextCodigo;
 
-    //Es como simular el autoincrement
     public Producto(){
+        //Es como simular el autoincrement
         this.codigo=++nextCodigo;
     }
+
+    //Constructor
     public Producto(String nombre,double precioVenta,double precioCompra,String descripcion){
         this.codigo=++nextCodigo;
         this.nombre = nombre;
@@ -26,6 +28,7 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
+    //Ganancia del producto
     public double getUtilidad(){
         return precioVenta-precioCompra;
     }
